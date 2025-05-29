@@ -2,6 +2,23 @@
 
 # TL;DR Summary of Commands
 
+### Merge a branch to another 
+(dev to main)
+```bash
+# Check what branch you are in
+git branch
+
+# Switch to branch you want to update
+git checkout main
+
+# Merge your dev to main
+git merge dev-branch
+
+# Push updated branch to main
+git push origin main
+
+```
+
 ### Clone a repository
 
 Use these commands when you want to clone a repository and start working on it locally for the first time:
